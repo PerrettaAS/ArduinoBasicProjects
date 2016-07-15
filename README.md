@@ -1,2 +1,5 @@
-# ArduinoBasicProjects
-A repository of practice projects for learning Arduino.
+# Arduino Practice Projects
+
+
+
+A repository for practice projects used to learn the basics of the Arduino. 
