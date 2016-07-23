@@ -13,9 +13,9 @@ void loop()
   if (digitalRead(BUTTON_PIN) == HIGH)
   {
     digitalWrite(BUZZER_PIN, HIGH);
-    delay(frequency++);
-    digitalWrite(BUZZER_PIN, LOW);
     delay(frequency);
+    digitalWrite(BUZZER_PIN, LOW);
+    delay(frequency++);
   }
   else
     digitalWrite(BUZZER_PIN, LOW);
